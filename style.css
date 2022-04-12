@@ -1,0 +1,147 @@
+*{
+    font-family: arial;
+
+}
+body{
+    margin:0;
+    padding: 0;
+}
+.main{
+    margin: 20px auto;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+
+
+
+}
+.left{
+    border:1px solid black;
+    width: 25%;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 6px 6px 8px lightgray;
+}
+.left #img:hover{
+    transition: 1s ease;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin:50px 0px 0px 80px;
+}
+.left #img{
+    width:365px;
+    height: 350px;
+    margin: 5px 0px 0px 5px;
+    border-radius: 10px;
+}
+.left h2{
+    margin: 10px;
+}
+.right{
+    border: 1px solid black;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 6px 6px 8px lightgray;
+    margin-top:  10px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+.icon img{
+    width:30px;
+    height: 30px;
+    margin: 10px;
+
+}
+.skills{
+    margin: 10px;
+}
+.skills input{
+    width: 350px;
+    margin: 0px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid darkcyan;
+    background-color:aliceblue;
+    color: white;
+}
+.skill{
+    margin: 10px;
+}
+.skill input{
+    width: 350px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid darkcyan;
+    background-color:darkcyan;
+    color: white;
+
+}
+.footer{
+    background-color: darkcyan;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.footer img{
+    width:15px;
+    height:15px;
+
+}
+.right{
+    padding: 10px;
+}
+.right h2 img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.dev img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.dev button{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+
+}
+.dev{
+    border-bottom: 1px solid lightgray;
+}
+@media only screen and (max-width:480px){
+    .main{
+        display:block;
+        width:450px;
+    }
+    
+}
+@media only screen and (max-width:1024px){
+    .main{
+        display:block;
+        width:450px;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .main{
+        display:block;
+        width:450px;
+    }
+    
+}
+@media only screen and (max-width:480px){
+    .skill input{
+        width:450px;
+    }
+    
+}
+
+
+
